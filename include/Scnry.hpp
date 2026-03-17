@@ -27,7 +27,8 @@ enum class NodeType
     SCRIPT = 6,
     PARTICLE_EFFECT = 7,
     UI = 8,
-    NUM_NODE_TYPES = 9
+    NUM_NODE_TYPES = 9,
+    UUID = 10
 };
 enum class LoadState{
     SUCCESS,
@@ -71,7 +72,7 @@ public:
     NodeType Type;
     int Parent;
     Array<float, 16> TransformMatrix;
-    unsigned long AssetID;
+    unsigned long long AssetID;
 public:
     Node();
     Node(const char* name, NodeType&& type, Array<float, 16>&& nodeMatrix_16,unsigned long id);

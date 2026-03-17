@@ -55,7 +55,9 @@ workspace "Scnry"
             "./Dependencies/yaml-cpp/include/**.hpp",
             "./Dependencies/yaml-cpp/src/**.h",
             "./Dependencies/yaml-cpp/src/**.cpp",
-            "./Scnry.cpp"--,
+            "./Scnry.cpp",--,
+            "./include/ProjectTypes.h",
+            "./ProjectSerializer.cpp"--,
             --"./MainTest.cpp"
         }
        

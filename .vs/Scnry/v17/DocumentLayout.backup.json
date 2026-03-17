@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{54151A3A-C07F-CEB0-09BE-7F567567AC05}|ScnryTest.vcxproj|C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\Test\\MainTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{54151A3A-C07F-CEB0-09BE-7F567567AC05}|ScnryTest.vcxproj|solutionrelative:Test\\MainTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54151A3A-C07F-CEB0-09BE-7F567567AC05}|ScnryTest.vcxproj|C:\\USERS\\OSAMA\\ONEDRIVE\\DESKTOP\\REPOS\\SCNARY\\INCLUDE\\PROJECTTYPES.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{54151A3A-C07F-CEB0-09BE-7F567567AC05}|ScnryTest.vcxproj|solutionrelative:INCLUDE\\PROJECTTYPES.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B14911C-F7E0-EB27-20FA-D9CF0C2621B6}|LibScnry.vcxproj|C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\ProjectSerializer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0B14911C-F7E0-EB27-20FA-D9CF0C2621B6}|LibScnry.vcxproj|solutionrelative:ProjectSerializer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0B14911C-F7E0-EB27-20FA-D9CF0C2621B6}|LibScnry.vcxproj|C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\Scnry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0B14911C-F7E0-EB27-20FA-D9CF0C2621B6}|LibScnry.vcxproj|solutionrelative:Scnry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B14911C-F7E0-EB27-20FA-D9CF0C2621B6}|LibScnry.vcxproj|C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\INCLUDE\\SCNRY.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0B14911C-F7E0-EB27-20FA-D9CF0C2621B6}|LibScnry.vcxproj|solutionrelative:INCLUDE\\SCNRY.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0B14911C-F7E0-EB27-20FA-D9CF0C2621B6}|LibScnry.vcxproj|C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\include\\ProjectSerializer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0B14911C-F7E0-EB27-20FA-D9CF0C2621B6}|LibScnry.vcxproj|solutionrelative:include\\ProjectSerializer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54151A3A-C07F-CEB0-09BE-7F567567AC05}|ScnryTest.vcxproj|C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\Test\\MainTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{54151A3A-C07F-CEB0-09BE-7F567567AC05}|ScnryTest.vcxproj|solutionrelative:Test\\MainTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{54151A3A-C07F-CEB0-09BE-7F567567AC05}|ScnryTest.vcxproj|C:\\USERS\\OSAMA\\ONEDRIVE\\DESKTOP\\REPOS\\SCNARY\\INCLUDE\\SCNRY.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{54151A3A-C07F-CEB0-09BE-7F567567AC05}|ScnryTest.vcxproj|solutionrelative:INCLUDE\\SCNRY.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54151A3A-C07F-CEB0-09BE-7F567567AC05}|ScnryTest.vcxproj|C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\INCLUDE\\TYPES.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{54151A3A-C07F-CEB0-09BE-7F567567AC05}|ScnryTest.vcxproj|solutionrelative:INCLUDE\\TYPES.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,39 +73,95 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "ProjectSerializer.h",
+              "DocumentMoniker": "C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\include\\ProjectSerializer.h",
+              "RelativeDocumentMoniker": "include\\ProjectSerializer.h",
+              "ToolTip": "C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\include\\ProjectSerializer.h",
+              "RelativeToolTip": "include\\ProjectSerializer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-03T20:55:42.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjectTypes.h",
+              "DocumentMoniker": "C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\include\\ProjectTypes.h",
+              "RelativeDocumentMoniker": "include\\ProjectTypes.h",
+              "ToolTip": "C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\include\\ProjectTypes.h",
+              "RelativeToolTip": "include\\ProjectTypes.h",
+              "ViewState": "AgIAACgAAAAAAAAAAAAnwAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-03T20:55:29.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectSerializer.cpp",
+              "DocumentMoniker": "C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\ProjectSerializer.cpp",
+              "RelativeDocumentMoniker": "ProjectSerializer.cpp",
+              "ToolTip": "C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\ProjectSerializer.cpp",
+              "RelativeToolTip": "ProjectSerializer.cpp",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAnwGQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-03T20:55:17.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Types.h",
+              "DocumentMoniker": "C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\include\\Types.h",
+              "RelativeDocumentMoniker": "include\\Types.h",
+              "ToolTip": "C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\include\\Types.h",
+              "RelativeToolTip": "include\\Types.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-31T20:36:06.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Scnry.cpp",
               "DocumentMoniker": "C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\Scnry.cpp",
               "RelativeDocumentMoniker": "Scnry.cpp",
               "ToolTip": "C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\Scnry.cpp",
               "RelativeToolTip": "Scnry.cpp",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAtwKMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAAAO4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-04T18:42:59.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainTest.cpp",
               "DocumentMoniker": "C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\Test\\MainTest.cpp",
               "RelativeDocumentMoniker": "Test\\MainTest.cpp",
               "ToolTip": "C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\Test\\MainTest.cpp",
               "RelativeToolTip": "Test\\MainTest.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAnwCEAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-29T22:18:42.245Z"
+              "WhenOpened": "2025-03-29T22:18:42.245Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Scnry.hpp",
               "DocumentMoniker": "C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\include\\Scnry.hpp",
               "RelativeDocumentMoniker": "include\\Scnry.hpp",
               "ToolTip": "C:\\Users\\osama\\OneDrive\\Desktop\\REPOS\\Scnary\\include\\Scnry.hpp",
               "RelativeToolTip": "include\\Scnry.hpp",
-              "ViewState": "AgIAADQAAAAAAAAAAAAtwEwAAABaAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-28T23:15:48.717Z",
               "EditorCaption": ""

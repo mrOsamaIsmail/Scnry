@@ -1,0 +1,13 @@
+Project:
+  Name: MyProject
+  Version:
+    Maj: 0
+    Min: 0
+  StartupScene: 0
+  Scenes:
+    []
+  Assets:
+    - UUID: 12345
+      Type: 2
+      Path: Assets/Tree.fbx
+      Name: Tree

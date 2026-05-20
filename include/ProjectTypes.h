@@ -1,11 +1,11 @@
 #pragma once
-#include <Types.h>   // reuses AssetType enum
+#include <ScnryTypes.h>   // reuses AssetType enum
 #include <string>
 #include <vector>
 #include <cstdint>
-#include <Scnry.hpp>  
+#include <optional>
+#include <Scnry.hpp>
 namespace Scnry {
-// ── Per-scene entry in the project ───────────────────────────
 struct ProjectSceneEntry {
     std::string  Name;
     std::string  Path;          // relative path to .scene file
@@ -13,7 +13,6 @@ struct ProjectSceneEntry {
     bool         Startup = false;
 };
 
-// ── Shared asset entry (global asset registry) ───────────────
 struct ProjectAssetEntry {
     uint64_t     UUID = 0;
     NodeType     Type = NodeType::EMPTY;
@@ -21,15 +20,13 @@ struct ProjectAssetEntry {
     std::string  Name;          // display name
 };
 
-// ── Top-level project data ────────────────────────────────────
 struct ProjectData {
     std::string                     Name;
-    Version                         Version;        // reuse from SceneTypes
+    Version                         Version;        
     uint64_t                        StartupSceneUUID = 0;
     std::vector<ProjectSceneEntry>  Scenes;
     std::vector<ProjectAssetEntry>  Assets;
 
-    // Convenience lookups
     const ProjectSceneEntry* FindScene(uint64_t uuid) const {
         for (const auto& s : Scenes)
             if (s.UUID == uuid) return &s;
@@ -50,6 +47,37 @@ struct ProjectData {
         for (const auto& a : Assets)
             if (a.Name == name) return &a;
         return nullptr;
+    }
+
+    const void AddSceneEntry(ProjectSceneEntry&& entry) 
+    {
+        Scenes.emplace_back(entry);
+    }
+
+    ProjectData& operator=(const ProjectData& other) {
+        if (this != &other) {
+            Name = other.Name;
+            Version = other.Version;
+            StartupSceneUUID = other.StartupSceneUUID;
+            Scenes = other.Scenes;
+            Assets = other.Assets;
+        }
+        return *this;
+    }
+
+    ProjectData& operator=(const std::optional<ProjectData>& optional) {
+        if (optional.has_value()) {
+            return *this = optional.value();
+        }
+        return *this;
+    }
+
+    ProjectData& assign(const std::optional<ProjectData>& optional) {
+        return *this = optional;
+    }
+
+    bool operator!() const {
+        return Name.empty() && Scenes.empty() && Assets.empty();
     }
 };
 

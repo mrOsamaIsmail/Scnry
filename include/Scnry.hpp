@@ -1,7 +1,7 @@
 #ifndef SCENARY_H
 #define SCENARY_H
 
-#include <Types.h>
+#include <ScnryTypes.h>
 #include <memory>
 
 //#include <yaml-cpp/yaml.h>
@@ -28,7 +28,9 @@ enum class NodeType
     PARTICLE_EFFECT = 7,
     UI = 8,
     NUM_NODE_TYPES = 9,
-    UUID = 10
+    UUID = 10,
+    SPRITE = 11,
+	SHADER = 12
 };
 enum class LoadState{
     SUCCESS,
@@ -72,10 +74,10 @@ public:
     NodeType Type;
     int Parent;
     Array<float, 16> TransformMatrix;
-    unsigned long long AssetID;
+    uint64_t AssetID;
 public:
     Node();
-    Node(const char* name, NodeType&& type, Array<float, 16>&& nodeMatrix_16,unsigned long id);
+    Node(const char* name, NodeType&& type, Array<float, 16>&& nodeMatrix_16,uint64_t id);
     Node(string&& name, NodeType&& type, Array<float, 16>&& nodeMatrix_16);
     bool operator ==(const Node& other) const;
     bool operator !=(const Node& other) const;

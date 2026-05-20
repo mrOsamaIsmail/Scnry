@@ -43,6 +43,13 @@
 *.tlog
 *.opendb
 *.sln
+*.slnx
 *.vcxproj
+*.recipe
+*.exe.recipe
 *.log
 *.ilk
+
+.vs/
+libScnry/obj/
+TestOut/

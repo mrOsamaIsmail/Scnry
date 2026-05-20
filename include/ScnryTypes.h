@@ -1,5 +1,5 @@
-#ifndef TYPES_H
-#define TYPES_H
+#ifndef SCNRY_TYPES_H
+#define SCNRY_TYPES_H
 
 
 #include <string>
